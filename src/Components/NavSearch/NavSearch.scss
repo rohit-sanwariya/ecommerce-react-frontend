@@ -1,0 +1,20 @@
+
+.search{
+     background-color: #fafafa;
+      
+    display: flex;
+    align-items: center;
+    input{
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 3px;
+        &:focus{
+            border: none;
+            outline: none;
+        }
+    }
+    span{
+        margin: 0 3px;
+        color: #e63946;
+    }
+}
