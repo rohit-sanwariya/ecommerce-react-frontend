@@ -9,7 +9,6 @@ nav {
   .brand-container {
     display: flex;
     justify-content: flex-start;
-
     h2.brand {
       margin-left: 3rem;
       cursor: pointer;
@@ -19,8 +18,7 @@ nav {
     display: flex;
     justify-content: center;
     list-style: none;
-    li{
-  
+    li{  
       margin: 0 1rem;
       padding: 1rem 0;
     }
@@ -33,7 +31,7 @@ nav {
       .modal {
         background-color: #fff;
         display: none;
-        height: 50vh;
+        height: 40vh;
         width: 15rem;
       }
     }
@@ -109,7 +107,7 @@ nav {
               padding: 0;
               li {
                 margin: 0;
-                padding: .25rem 0;
+                padding: .35rem 0;
                 .router-link-item{
                   text-decoration: none;
                   color: #333;

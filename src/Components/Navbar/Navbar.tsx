@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
         <li>
           <NavSearch />
         </li>
-        <li className="user-profile nav-list-item"  >
+        <li className="user-profile nav-list-item">
           <Link className="router-link" to="/">
             <span className="material-icons">person</span>
           </Link>
@@ -25,24 +25,34 @@ const Navbar: React.FC = () => {
                 <h3>Welcome</h3>
                 <h4>To access account and manage orders</h4>
                 <div className="button">
-                  <button className="btn btn-primary" >
-                    <Link className="button-router-link" to='login'>Login/Sign Up</Link>
+                  <button className="btn btn-primary">
+                    <Link className="button-router-link" to="login">
+                      Login/Sign Up
+                    </Link>
                   </button>
                 </div>
               </div>
               <div className="bottom">
-                <ul  className="profile-list">
+                <ul className="profile-list">
                   <li className="profile-list-item">
-                    <Link className="router-link-item"  to="/orders">Orders</Link>
+                    <Link className="router-link-item" to="/orders">
+                      Orders
+                    </Link>
                   </li>
                   <li className="profile-list-item">
-                    <Link className="router-link-item"   to="/wishlist">Wishlist</Link>
+                    <Link className="router-link-item" to="/wishlist">
+                      Wishlist
+                    </Link>
                   </li>
                   <li className="profile-list-item">
-                    <Link className="router-link-item"   to="/giftcards">Gift cards</Link>
+                    <Link className="router-link-item" to="/giftcards">
+                      Gift cards
+                    </Link>
                   </li>
                   <li className="profile-list-item">
-                    <Link className="router-link-item"   to="/contact">Contact Us</Link>
+                    <Link className="router-link-item" to="/contact">
+                      Contact Us
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@use './../node_modules/bootstrap/scss/bootstrap.scss';
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
   --primary:#e63946;
 }
